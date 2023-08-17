@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    background: #111;
+}
+
+img {
+    float: left;
+    height: 400px;
+    margin-left: 20%;
+    transform: rotate(13.5deg);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+    color: #5ADAFF;
+    place-content: "Enter text";
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+    color: #5ADAFF;
+}
+
+.text-boxes {
+    background: transparent;
+    display: flex;
+    margin-left: 1px;
+}
+
+input {
+    font-family: 'Ubuntu', sans-serif;
+    height: 30px;
+    width: 35%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #5ADAFF;
+    color: #5ADAFF;
+    /*border-radius: 6px;*/
+    padding: 3px;
+    content: "Hello";
+}
+
+select {
+    font-family: 'Ubuntu', sans-serif;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #5ADAFF;
+    color: #5ADAFF;
+    /*border-radius: 6px;*/
+    padding: 5px;
+}
+
+select option {
+    background: #111;
+    color: #5ADAFF;
+
+}
+
+.container {
+    display: absolute;
+    box-sizing: border-box;
+    margin-top: 7%;
+    margin-left: 450px;
+    margin-bottom: 10%;
+    width: 40%;
+    border: 2px solid #5ADAFF;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 25px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s all ease;
+    color: #5ADAFF;
+    cursor: default;
+    background: transparent;
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+.container:hover {
+    transform: scale(1.03);
+    box-shadow: 5px 5px 13px 13px #999;
+}
+
+.container .content {
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-delay: 0.1s;
+}
+
+button {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+    height: 40px;
+    width: 70px;
+    font-size: 16px;
+    border: 1px solid #5ADAFF;
+}
+
+button:hover {
+    background: #05386B;
+    border: none;
+    transition: 0.3s all ease;
+    color: #5ADAFF;
+    cursor: pointer;
+}
+
+.answer,
+.answer b {
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+}
+
+span {
+    font-family: 'Ubuntu', sans-serif;
+    color: #5ADAFF;
+    background: transparent;
+    margin: 12px;
+    margin-left: 30px;
+}
+
+/* FOOTER  */
+
+footer {
+    background: #5ADAFF;
+    padding: 20px;
+    margin-top: 290px;
+}
+
+footer span {
+    background: #5ADAFF;
+    color: #5ADAFF;
+}
+
+footer span a {
+    color: #9575cd;
+    text-decoration: none;
+    background: #5ADAFF;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 987px) {
+    img {
+        float: left;
+        height: 400px;
+        margin-left: 14%;
+    }
+}
+
+
+@media (max-width: 755px) {
+    img {
+        float: left;
+        height: 300px;
+        margin-left: 14%;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes example {
+    0% {
+        margin-left: -900px;
+    }
+
+    100% {
+        margin-left: 450px;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

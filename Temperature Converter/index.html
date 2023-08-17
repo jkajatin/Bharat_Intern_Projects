@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="full">
+    <!-- <img src="thermometer.webp"> -->
+    <div class="container">
+    <h1>Temperature Conveter</h1><br>
+    <div class="text-boxes">
+    <span>Temperature:</span> <input type="text" id="temp" placeholder="Temp" required>
+    <span>Choose:</span> <select id="mySelect" required>
+        <option value="null">Select Option</option>
+        <option value="fToc">Fahrenheit to Celsius</option>
+        <option value="cTof">Celsius to Fahrenheit</option>
+        <option value="cTok">Celsius to kelvin</option>
+    </select>
+    </div>
+    <i class="fas fa-caret-left"></i>
+    <br><button onclick="pressed()">Convert</button>
+    <button onclick="refresh()">Reset</button>
+    <br>
+    <h2>Answer Field</h2>
+    <div id="answer" class="answer"></div>
+ 
+</div>
+
+
+<!-- FOOTER SECTION-->
+
+<!-- <footer>
+    <span>Created By <a href="#">Manobharath Mannem</a> | <span class="fas fa-copyright"></span>2023 All rights Reserved.</span>
+</footer> -->
+
+</div>
+
+    <script src="script.js"></script>
+   
+
+</body>
+
+</html>

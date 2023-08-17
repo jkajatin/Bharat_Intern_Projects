@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'); 
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    background-image: url(bg.jpg);
+    background-size: 1519px 650px;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+    height: 58px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 180px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+button{
+    float: right;
+    background: red;
+    margin-right: 250px;
+    color: #fff;
+    height: 35px;
+    width: 80px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 18px;
+    border: 1px solid red;
+    transition: 0.3s all ease;
+}
+button:hover{
+    background: #CA0000;
+    border: 1px solid #CA0000;
+    cursor: pointer;
+}
+.center-text{
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 24%;
+    font-weight: 1000;
+    font-size: 45px;
+    background: none;
+}
+.middle-text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 5%;
+    line-height: 1.75;
+    background: none;
+}
+.email{
+    background: none;
+    align-items: center;
+}
+.email input{
+    height: 50px;
+    width:  350px;
+    font-size: 20px;
+    color: white;
+    background: none;
+    border: 1px solid grey;
+    margin-top: 2%;
+    margin-left: 32%;
+    background: transparent;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+.email button{
+    background: red;
+    margin-top: 30px;
+    margin-right: 500px;
+    color: #fff;
+    height: 52px;
+    width: 140px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid red;
+    transition: 0.3s all ease;
+}
+.email button:hover{
+    background: #CA0000;
+    border: 1px solid #CA0000;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.sec-division-1{
+    margin-top: -55px;
+    background: #222;
+    width: 1600px;
+    height: 8.75px;
+}
+.sec2{
+    background: black;
+    height: 600px;
+    width: 100%;
+}
+.sec2 .container-1{
+    background: transparent;
+    color: white;
+}
+.sec2 .container-1 .text{
+    float: left;
+    background: transparent;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.sec2 .container-1 .text span{
+    background: transparent;
+    font-size: 50px;
+    margin-top: 50%;
+    font-weight: 600;
+}
+.sec2 .container-1 .text p{
+    background: transparent;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 25px;
+    width: 60%;
+}
+.sec2 .container-1 .img video{
+    width: 518px;
+    margin-top: -250px;
+    margin-left: 820.5px;
+    height: 232px;
+}
+.sec2 .container-1 .img img{
+    float: right;
+    background: transparent;
+    margin-top: -325px;
+    margin-right: 153px;
+    height: 426px;
+    width:568px;
+}
+
+
+
+
+
+
+.sec-division-2{
+    background: #222;
+    width: 100%;
+    height: 8.75px;
+}
+.sec3{
+    background: black;
+    height: 550px;
+    width: 100%;
+}
+.sec3 .container-2{
+    background: transparent;
+    color: white;
+}
+.sec3 .container-2 .text{
+    float: right;
+    background: transparent;
+    margin-top: 10%;
+}
+.sec3 .container-2 .text span{
+    background: transparent;
+    font-size: 50px;
+    margin-top: 50%;
+    font-weight: 600;
+    width: 80%;
+}
+.sec3 .container-2 .text p{
+    background: transparent;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 25px;
+    width: 70%;
+    margin-left: 2px;
+}
+.sec3 .container-2 .img img{
+    float: left;
+    background: transparent;
+    margin-top: -325px;
+    margin-right: 153px;
+    height: 400px;
+    width:568px;
+    box-shadow: 20px  2000px 200px 20px black;
+}
+.sec3 .container-2 .img .img2{
+    position: absolute;
+    background: black;
+    width: 300px;
+    height: 100px;
+    margin-left: 310px;
+    margin-top: 340px;
+    border-radius: 10px;
+    border: 1px solid #666;
+    
+}
+.sec3 .container-2 .img2 img{
+    height: 82px;
+    width: 60px;
+    margin-top: 9px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+.sec3 .container-2 .img2 .download{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.sec3 .container-2 .img2 p{
+    margin-right: 2px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.sec3 .container-2 .img2 span a{
+    text-decoration: none;
+    color: rgb(77, 77, 255);
+}
+.sec3 .container-2 .img2 .gif img{
+    position: absol;
+    margin-top: -64px;
+    margin-left: 230px;
+    height: 50px;
+    width: 58px;
+}
+
+
+
+
+.sec-division-3{
+    background: #222;
+    width: 100%;
+    height: 8.75px;
+}
+.sec4{
+    background: black;
+    height: 550px;
+    width: 100%;
+}
+.sec4 .container-3{
+    background: transparent;
+    color: white;
+}
+.sec4 .container-3 .text{
+    float: left;
+    background: transparent;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.sec4 .container-3 .text span{
+    background: transparent;
+    font-size: 50px;
+    margin-top: 50%;
+    font-weight: 600;
+}
+.sec4 .container-3 .text p{
+    background: transparent;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 25px;
+    width: 60%;
+}
+.sec4 .container-3 .img{position: relative;}
+.sec4 .container-3 .img video {
+    position: absolute;
+    width: 363px;
+    margin-top: 110px;
+    margin-left: -34px;
+    height: 248px;
+    margin-bottom: 75px;
+}
+.sec4 .container-3 .img img{
+    position: relative;
+    float: right;
+    background: transparent;
+    margin-top: -325px;
+    margin-right: 153px;
+    height: 426px;
+    width:568px;
+    z-index: 99;
+}
+
+
+
+
+
+.sec-division-4{
+    background: #222;
+    width: 100%;
+    height: 8.75px;
+}
+.sec5{
+    background: black;
+    height: 550px;
+    width: 100%;
+}
+.sec5 .container-4{
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+}
+.sec5 .container-4 .text{
+    float: right;
+    background: transparent;
+    margin-top: 10%;
+}
+.sec5 .container-4 .text span{
+    background: transparent;
+    font-size: 50px;
+    margin-top: 50%;
+    font-weight: 600;
+    width: 80%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.sec5 .container-4 .text p{
+    background: transparent;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 25px;
+    width: 80%;
+    margin-left: 202px;
+}
+.sec5 .container-4 .img img{
+    float: left;
+    background: transparent;
+    margin-top: -325px;
+    margin-right: 153px;
+    height: 440px;
+    width:572px;
+    box-shadow: 20px  2000px 200px 20px black;
+}
